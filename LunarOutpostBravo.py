@@ -28,7 +28,7 @@ def main():
                 sys.exit()
 
         pygame.display.update()
-        clock.tick(60)
+        clock.tick(MAX_FPS)
 
 if __name__ == "__main__":
     main()
